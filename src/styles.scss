@@ -1,0 +1,32 @@
+// Import the theme
+@import 'vanilla-framework';
+@include vanilla;
+
+// Optionally override some settings
+$color-brand: #ffffff;
+
+// Add theme if applicable
+.blog-card {
+    border-top: 4px solid #9b7b9d;
+    text-align:left;
+
+    .thumb-blurb {
+        color: #6495c2;
+        font-weight: 500;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 100px;
+        display: -webkit-box;
+    }
+
+    .card-header {
+        font-size: 1.1em;
+    }
+
+    .author-area {
+        font-style: italic;
+    }
+}
+
