@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@canonical/react-components": "^0.37.8",
+    "axios": "^1.2.1",
     "cra-template": "1.2.0",
     "node-sass-chokidar": "^2.0.0",
     "react": "^18.2.0",
@@ -19,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-css": "sass -w --load-path=node_modules src:dist --style=compressed",
-    "watch-css":  "yarn build-css && sass --load-path=node_modules -w src:dist --style=compressed"
+    "watch-css": "yarn build-css && sass --load-path=node_modules -w src:dist --style=compressed"
   },
   "eslintConfig": {
     "extends": [
